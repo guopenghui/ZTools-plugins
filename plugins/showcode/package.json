@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "validate:ztools": "python3 /Users/cuitongzhe/.codex/skills/ztools-plugin-dev/scripts/validate_ztools_plugin.py dist",
-    "package": "npm run build && npm run validate:ztools && node scripts/package-ztools.mjs",
+    "package": "npm run build && node scripts/package-ztools.mjs",
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
